@@ -22,11 +22,11 @@ body {
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: xx-large;
 }
 
-nav h1 {
+nav > h1 {
   color: #f2f0eb;
 }
 
@@ -50,7 +50,7 @@ section {
   padding: 1em;
 }
 
-header, section {
+header, section, nav {
   border-radius: 3px;
   width: 60vw;
   margin: 10px 0px;
