@@ -4,12 +4,61 @@
     black #27251F
     lightgreen #00754a
     extralightgreen #d4e9e2
-    darkgreen #1e3932
+    darkgreen #1e3932 
 */
+
 * {
   color: #27251F;
   box-sizing: border-box;
   font-family: sans-serif;
 }
 
-/* your code */
+body {
+  background-color: #1e3932;
+}
+
+/* Nav Bar */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: xx-large;
+}
+
+nav h1 {
+  color: #f2f0eb;
+}
+
+/* Main Content */
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+header {
+  background-color: #d4e9e2;
+  font-size: larger;
+  padding: 1em;
+}
+
+section {
+  border: 1px solid #f2f0eb;
+  padding: 1em;
+}
+
+header, section {
+  border-radius: 3px;
+  width: 60vw;
+  margin: 10px 0px;
+}
+
+.city-item {
+  background-color: #00754a;
+  padding: 0.5em;
+  margin: 6px 0px;
+  text-align: end;
+}
